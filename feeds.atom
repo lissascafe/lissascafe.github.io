@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>kafelissa.io</title>
+  <link href="https://kafelissa.netlify.app/" rel="alternate" />
+  <updated>2024-10-03T10:10:10Z</updated>
+  <author>
+    <name>kwafeLt</name>
+  </author>
+  <id>https://kafelissa.netlify.app/atom</id>
+  <entry>
+    <title>SOME-PICTURES</title>
+    <link href="https://kafelissa.netlify.app/try" rel="alternate" />
+    <id>http://www.example.com/try</id>
+    <updated>2024-10-03T10:10:10Z</updated>
+    <summary>ini summary utuk test tag HTML5, PICTURES.</summary>
+    <content type="html"><![CDATA[
+      <p>This is an example of a responsive image using the <code>&lt;picture&gt;</code> element in Atom feed content.</p>
+      <picture>
+      <source srcset="https://lh3.googleusercontent.com/d/1CdcsK1LH98RFNr7MZpDGwHSCllyfWbvu?" media="(min-width: 800px)">
+      <source srcset="https://lh3.googleusercontent.com/d/1CdcsK1LH98RFNr7MZpDGwHSCllyfWbvu?" media="(min-width: 400px)">
+      <img src="https://lh3.googleusercontent.com/d/1CdcsK1LH98RFNr7MZpDGwHSCllyfWbvu?" alt="A responsive image">
+      </picture>
+      <p>More content goes here...</p>
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <link href="https://kafelissa.netlify.app/hello-world" rel="alternate" />
+    <id>http://www.example.com/hello-world</id>
+    <updated>2024-07-14T00:00:00Z</updated>
+    <summary>ini summary untuk Hello World</summary>
+  </entry>
+  <entry>
+    <title>Hello People</title>
+    <link href="https://kafelissa.netlify.app/hello-people" rel="alternate" />
+    <id>http://www.example.com/hello-people</id>
+    <updated>2024-09-25T00:00:00Z</updated>
+    <summary>
+      <![CDATA[
+      <p>in summary untuk</p> Hello People
+      ]]>
+    </summary>
+  </entry>
+  <entry>
+    <title>Announcing Trelby</title>
+    <link href="https://kafelissa.netlify.app/hello-people" rel="alternate" />
+    <id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+    <published>2021-09-25T00:00:00Z</published>
+    <updated>2021-09-25T00:00:00Z</updated>
+    <content type="html" xml:base="https://kafelissa.netlify.app/announcing-trelby/">
+    <![CDATA[
+      <p>This is the full content of the fir<<br>st blog post. It can contain <strong>HTML</strong> as well.</p>
+    ]]>
+    </content>
+    <summary>
+    We are happy to announce the release of Trelby 2.0, a simple, free and multi-platform screenwriting program. Rather than restating the feature list, why not head over to the homepage and take a look at all the features Trelby has to offer! Or download it for your platform. Trelby is the rebranding of an older screenwriting program called Blyte, a one-man effort by Osku Salerma, from 2006. The code was open sourced, but did not gain any new developers until October 2011, when Anil Gulecha jumped in being dissatisfied with available screenwriting options. Trelby is free software, released under the GPL free software license. Take a look at the contribute page for more information on how to get involved.
+    </summary>
+    <author>
+      <name>kwafeLt.</name>
+    </author>
+  </entry>
+</feed>
