@@ -8,6 +8,19 @@
   </author>
   <id>https://kafelissa.netlify.app/atom</id>
   <entry>
+    <title>OKTOBER</title>
+    <link href="https://kafelissa.netlify.app/memoire" rel="alternate" />
+    <id>https://kafelissa.netlify.app/memoire</id>
+    <updated>2024-10-19T22:10:10+08:00</updated>
+    <summary>tragedi OKTOBER</summary>
+    <content type="html"><![CDATA[
+      <picture> 
+      <source srcset="https://lh3.googleusercontent.com/d/1CdcsK1LH98RFNr7MZpDGwHSCllyfWbvu?" type="image/png">
+      <img src="https://lh3.googleusercontent.com/d/1CdcsK1LH98RFNr7MZpDGwHSCllyfWbvu?" alt="tragedi OKTOBER">
+      </picture>
+    ]]></content>
+  </entry>
+  <entry>
     <title>SOME-PICTURES</title>
     <link href="https://kafelissa.netlify.app/try" rel="alternate" />
     <id>http://www.example.com/try</id>
