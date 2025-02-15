@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Text File</title>
+</head>
+<body>
+    <p id="text-content">Loading...</p>
+
+    <script>
+        // Google Drive direct file link
+        const fileUrl = "https://drive.google.com/uc?export=download&id=FILE_ID";
+
+        fetch(fileUrl)
+            .then(response => response.text()) // Convert response to text
+            .then(text => {
+                document.getElementById("text-content").textContent = text;
+            })
+            .catch(error => {
+                console.error("Error fetching file:", error);
+                document.getElementById("text-content").textContent = "Failed to load file.";
+            });
+    </script>
+</body>
+</html>
